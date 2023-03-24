@@ -1,4 +1,4 @@
-module Teste1
+
   class Numero_cpf
     attr_accessor :numero_cpf
 
@@ -14,4 +14,3 @@ module Teste1
       verificar_cpf ? "Número de CPF válido" : "Formato de número ínvalido"
     end
   end
-end

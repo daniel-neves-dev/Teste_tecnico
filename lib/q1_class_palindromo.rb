@@ -1,18 +1,18 @@
-module Teste1
-  class Palindromo
-    attr_accessor :texto
+# frozen_string_literal: true
 
-    def initialize(texto)
-      @texto = texto
-    end
+class Palindromo
+  attr_accessor :texto
 
-    def set_texto
-      @texto = texto.gsub(" ","").downcase
-      @texto == texto.reverse
-    end
+  def initialize(texto)
+    @texto = texto
+  end
 
-    def verificar_palindromo
-      set_texto ? "A string é palíndromo" : "A string não é palíndromo"
-    end
+  def verifica_texto
+    novo_texto = texto.gsub(" ", "").downcase
+    novo_texto == novo_texto.reverse
+  end
+
+  def verificar_palindromo
+    verifica_texto ? "A string é palíndromo" : "A string não é palíndromo"
   end
 end
