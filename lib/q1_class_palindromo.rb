@@ -13,7 +13,6 @@ module Teste1
 
     def verificar_palindromo
       set_texto ? "A string é palíndromo" : "A string não é palíndromo"
-      #return set_texto
     end
   end
 end
