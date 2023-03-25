@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "teste_tecnico_1"
+require "teste_tecnico"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    teste_tecnico_1 (0.1.0)
+    Teste_tecnico (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -48,10 +48,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  Teste_tecnico!
   rake (~> 13.0)
   rspec (~> 3.0)
   rubocop (~> 1.21)
-  teste_tecnico_1!
 
 BUNDLED WITH
    2.4.7

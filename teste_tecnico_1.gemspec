@@ -3,8 +3,8 @@
 require_relative "lib/teste_tecnico_1/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "teste_tecnico_1"
-  spec.version = TesteTecnico1::VERSION
+  spec.name = "Teste_tecnico"
+  spec.version = TesteTecnico::VERSION
   spec.authors = ["daniel"]
   spec.email = ["daniel.oliveira.au@hotmail.com"]
 

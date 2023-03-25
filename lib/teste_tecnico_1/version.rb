@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module TesteTecnico1
+module TesteTecnico
   VERSION = "0.1.0"
 end
