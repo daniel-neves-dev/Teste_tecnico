@@ -1,4 +1,4 @@
-require 'q1_class_palindromo'
+require_relative '../../lib/teste_tecnico_1/q1_class_palindromo'
 
 RSpec.describe Palindromo do
   it "a palavra é palindromo" do

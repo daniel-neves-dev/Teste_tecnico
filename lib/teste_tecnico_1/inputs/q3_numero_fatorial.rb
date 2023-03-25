@@ -1,4 +1,4 @@
-require 'q3_class_numero_fatorial'
+require_relative '../q3_class_numero_fatorial'
 
 puts "Digite um numero para saber o seu fatorial"
 numero_fatorial = gets.chomp

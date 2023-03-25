@@ -1,4 +1,4 @@
-require 'q2_class_numero_cfp'
+require_relative '../../lib/teste_tecnico_1/q2_class_numero_cfp'
 
 RSpec.describe Numero_cpf do
   it "máscara numero CPF válido" do

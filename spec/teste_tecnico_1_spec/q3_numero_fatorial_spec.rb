@@ -1,4 +1,4 @@
-require 'q3_class_numero_fatorial'
+require_relative '../../lib/teste_tecnico_1/q3_class_numero_fatorial'
 
 RSpec.describe  do
   it "número é negativo" do

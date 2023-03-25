@@ -2,7 +2,7 @@
 
 require_relative "teste_tecnico_1/version"
 
-module TesteTecnico1
+module TesteTecnico
   class Error < StandardError; end
   # Your code goes here...
 end
